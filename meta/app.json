@@ -9,10 +9,12 @@
   "logo": "",
   "name": "TestApp",
   "navigation": [
-    "MainPage"
+    "MainPage",
+    "Test"
   ],
   "pages": [
-    "MainPage"
+    "MainPage",
+    "Test"
   ],
   "serverLang": "cs",
   "serverProject": true,

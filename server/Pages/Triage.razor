@@ -1,3 +1,32 @@
 @page "/triage"
+@layout MainLayout
 
-<h1>Triage</h1>
+@using Radzen
+@using Radzen.Blazor
+
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<PageTitle>Triage</PageTitle>
+<RadzenContent>
+    <ChildContent>
+        <RadzenHeading Size = "H1" Text = "Triage"></RadzenHeading>
+        <RadzenHeading Size = "H3" Text = "Heavy Oil Triage Resources"></RadzenHeading>
+        <RadzenCard>
+            <RadzenButton style = "display: inline-flex" Text="GPM Tool Capacity Meter Down Gross" Click = "@GPMButtonClick"></RadzenButton>
+            <RadzenButton style = "display: inline-flex" Text="Lego and SAP Down Oil" Click="@NavigateToSite" Target="blank"></RadzenButton>
+        </RadzenCard>
+    </ChildContent>
+</RadzenContent>
+
+<a href="http://tableau/#/views/LEGOandSAPDownOil/WellListbyAreaOffCode?:iid=2" target="_blank" style="width:100%;display:block;text-align:center;padding:.5em;background-color:#0073e2;color:#fff;border-radius:4px;box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);text-decoration:none">Lego and SAP Down Oil</a>
+
+@code 
+{
+    private async void GPMButtonClick() => await JSRuntime.InvokeAsync<object>("open", "http://tableau/#/views/GPM/GPM?:iid=1", "_blank");
+    private async void LegoButtonClick() => await JSRuntime.InvokeAsync<object>("open", "http://tableau/#/views/LEGOandSAPDownOil/WellListbyAreaOffCode/", "_blank");
+    private void NavigateToSite()
+    {
+        NavigationManager.NavigateTo("http://tableau/#/views/LEGOandSAPDownOil/WellListbyAreaOffCode?:iid=2", true);
+    }
+}

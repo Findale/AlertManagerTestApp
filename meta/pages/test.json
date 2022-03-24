@@ -1,0 +1,57 @@
+{
+  "access": "Everybody",
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Test",
+          "type": "heading"
+        },
+        {
+          "name": "heading0",
+          "size": "H3",
+          "text": "Heavy Oil Triage Resources",
+          "type": "heading"
+        },
+        {
+          "components": [
+            {
+              "events": {
+                "click": [
+                  {
+                    "path": "main-page",
+                    "type": "navigate"
+                  }
+                ]
+              },
+              "name": "button0",
+              "style": {
+                "display": "inline-flex"
+              },
+              "text": "GPM Tool Capacity Meter Down Gross",
+              "type": "button"
+            },
+            {
+              "name": "button1",
+              "style": {
+                "display": "inline-flex",
+                "paddingLeft": ""
+              },
+              "text": "Lego and SAP Down Oil",
+              "type": "button"
+            }
+          ],
+          "name": "card0",
+          "type": "card",
+          "visible": true
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "Test"
+}

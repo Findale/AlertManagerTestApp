@@ -19,10 +19,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Radzen/server/Pages/CyclicHistory.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3ljbGljSGlzdG9yeS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Radzen/server/Pages/Dropdown.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJvcGRvd24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,12 +27,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Radzen/server/Pages/SignalCounts.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmFsQ291bnRzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Radzen/server/Pages/StatusChange.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHVzQ2hhbmdlLnJhem9y
+[C:/Radzen/server/Pages/Triage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJpYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Radzen/server/Pages/_Imports.razor]
