@@ -1,0 +1,15 @@
+﻿@page "/status-change"
+@layout MainLayout
+@inherits TestApp.Pages.MainPageComponent
+
+@using Radzen
+@using Radzen.Blazor
+<PageTitle>Status Change</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Status Change">
+    </RadzenHeading>
+    <RadzenSSRSViewer ReportName="Production Data/Prod - All Test Details" ReportServer="http://ssrs/ReportServer/" style="height: 500px">
+    </RadzenSSRSViewer>
+  </ChildContent>
+</RadzenContent>

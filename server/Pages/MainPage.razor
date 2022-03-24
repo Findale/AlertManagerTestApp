@@ -1,0 +1,16 @@
+﻿@page "/"
+@page "/main-page"
+@layout MainLayout
+@inherits TestApp.Pages.MainPageComponent
+
+@using Radzen
+@using Radzen.Blazor
+<PageTitle>MainPage</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="MainPage">
+    </RadzenHeading>
+    <RadzenSSRSViewer ReportName="Exception Based Surveillance/SignalTesting" ReportServer="http://ssrs/ReportServer/" style="height: 500px">
+    </RadzenSSRSViewer>
+  </ChildContent>
+</RadzenContent>

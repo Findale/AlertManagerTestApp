@@ -1,0 +1,15 @@
+﻿@page "/cyclic-history"
+@layout MainLayout
+@inherits TestApp.Pages.MainPageComponent
+
+@using Radzen
+@using Radzen.Blazor
+<PageTitle>Cyclic History</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Cyclic History">
+    </RadzenHeading>
+    <RadzenSSRSViewer ReportName="Injection Data/Cyclic History" ReportServer="http://ssrs/ReportServer/" style="height: 500px">
+    </RadzenSSRSViewer>
+  </ChildContent>
+</RadzenContent>

@@ -1,0 +1,28 @@
+{
+  "access": "Everybody",
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "MainPage",
+          "type": "heading"
+        },
+        {
+          "name": "ssrsviewer0",
+          "reportName": "Exception Based Surveillance/SignalTesting",
+          "reportServer": "http://ssrs/ReportServer/",
+          "style": {
+            "height": "500px"
+          },
+          "type": "ssrsviewer"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "MainPage"
+}
